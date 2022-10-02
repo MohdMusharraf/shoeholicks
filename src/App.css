@@ -1,0 +1,239 @@
+.navbar-class{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #ededed;
+}
+
+.logo-class{
+    font-family: Gagalin;
+    font-size: 30px !important;
+    letter-spacing: 1.2px;
+}
+
+.nav-class-name{
+    font-family: MADE TOMMY;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap{
+    flex: 1;
+}
+
+.main-footer{
+
+    background-color: #272727;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-footer-text{
+    font-family: Gagalin;
+    color: #ededed;
+    font-size: 26px;
+}
+
+.footer-cr{
+    font-family: Mark Pro;
+    color: #ededed;
+    font-size: 12px;
+    font-weight: thin;
+}
+
+#custom-card-1{
+    background: linear-gradient(146.14deg, rgba(112, 205, 255, 0.5) 0%, rgba(187, 244, 255, 0.5) 100%);
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#custom-card-2{
+    background: linear-gradient(146.14deg, rgba(193, 193, 193, 0.5) 0%, rgba(254, 254, 254, 0.5) 100%);
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#custom-card-3{
+    background: linear-gradient(146.14deg, rgba(101, 242, 68, 0.5) 0%, rgba(227, 255, 220, 0.5) 100%);
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#custon-menu{
+    font-family: MADE TOMMY;
+}
+
+#dropdown-custom{
+    background-color: #fff;
+    color: #272727;
+    border-color: #5EB4FA;
+}
+
+#custom-btn{
+    font-family: MADE TOMMY;
+    font-weight: 100;
+    background-color: #fff;
+    color: #272727;
+    border-color: #5EB4FA;
+}
+
+#dropdown-custom-1{
+    background-color: #fff;
+    color: #272727;
+    border-color: #272727;
+}
+
+#custom-btn-1{
+    background-color: #fff;
+    color: #272727;
+    border-color: #272727;
+}
+
+#dropdown-custom-2{
+    background-color: #fff;
+    color: #272727;
+    border-color: #79F55C;
+}
+
+#custom-btn-2{
+    background-color: #fff;
+    color: #272727;
+    border-color: #79F55C;
+}
+
+#button-24 {
+  background: #5EB4FA;
+  border: 1px solid #5EB4FA;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 38px;
+  outline: 0;
+  /* padding: 12px 14px; */
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+#button-24:hover,
+#button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #5EB4FA;
+}
+
+#button-24:active {
+  opacity: .5;
+}
+
+.custom-div-buy{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 3px; */
+}
+
+#button-25 {
+    background: #272727;
+    border: 1px solid #272727;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 38px;
+    outline: 0;
+    /* padding: 12px 14px; */
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+#button-25:hover,
+#button-25:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #272727;
+}
+
+#button-25:active {
+    opacity: .5;
+}
+
+
+#button-26 {
+    background: #79F55C;
+    border: 1px solid #79F55C;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 38px;
+    outline: 0;
+    /* padding: 12px 14px; */
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+#button-26:hover,
+#button-26:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #79F55C;
+}
+
+#button-26:active {
+    opacity: .5;
+}
+
+.title-text-class{
+    font-family: MADE TOMMY;
+    font-size: 24px !important;
+    margin-bottom: 12px !important;
+}
+
+#sub-card-class{
+    font-family: MADE TOMMY;
+    font-size: 18px;
+    margin-bottom: 10px !important;
+
+}

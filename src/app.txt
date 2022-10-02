@@ -1,0 +1,21 @@
+
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+  
+const [data, setData] = useState([])
+
+const fetchData = async () => {
+try {
+    const response = await axios.get('https://coursera-twitter-api.herokuapp.com/tweets')
+    setData(response.data)
+} catch (error) {
+    console.error(error);
+}
+}
+
+useEffect(() => {
+console.log("WORKING")
+fetchData()
+})
+
+{/* {data.map(tweet => <Tweet key={tweet.id} {...tweet} />)} */}
