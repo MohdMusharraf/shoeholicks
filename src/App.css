@@ -27,11 +27,19 @@
 }
 
 .main-footer{
-
     background-color: #272727;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+    .main-footer{
+        background-color: #272727;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 .logo-footer-text{

@@ -5,7 +5,7 @@ import { faTwitter, faLinkedin, faInstagram  } from '@fortawesome/free-brands-sv
 function FooterNav() {
     return(
         <div className="main-footer">
-            <div className="container">
+            <div className="container ">
                 <div className="row ">
                     <div className="row justify-content-center">
                         <div className="col-auto pt-2">
