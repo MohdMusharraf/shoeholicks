@@ -5,6 +5,7 @@ function MainComp() {
     return (
         <div className='container'>
             <div className='row align-items-start mt-2'>
+
                 <div className='col-12 col-md m-1'>
                     <Card id="custom-card-1">
                         <Card.Img className="p-2" variant="top" src=".\images\blue.png"></Card.Img>
@@ -29,6 +30,7 @@ function MainComp() {
                         </Card.Body>
                     </Card>
                 </div>
+
                 <div className='col-12 col-md m-1'>
                     <Card id="custom-card-2">
                         <Card.Img className="p-2" variant="top" src=".\images\white.png"></Card.Img>
@@ -53,6 +55,7 @@ function MainComp() {
                         </Card.Body>
                     </Card>
                 </div>
+
                 <div className='col-12 col-md m-1'>
                     <Card id="custom-card-3">
                         <Card.Img className="p-2" variant="top" src=".\images\green.png"></Card.Img>
@@ -77,6 +80,7 @@ function MainComp() {
                         </Card.Body>
                     </Card>
                 </div>
+                
             </div>
         </div>
     );
